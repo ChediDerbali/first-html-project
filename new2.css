@@ -1,0 +1,114 @@
+﻿/*pour Body*/
+body
+{
+background-color:black;
+background-image:url("Image/Bground.png");
+background-attachment:fixed;
+color: white;
+repeat-x:true;
+background-repeat:repeat-x;
+font-family:"1979",Trebuchet MS;
+
+}
+a
+{
+	color: white;
+}
+a:hover
+{
+	color:black;
+	background-color:#59aabe;
+}
+a:active
+{
+	color:#59aabe;
+	background-color:black;
+
+}
+a:visited
+{
+	color:#555555;
+}
+/*pour nav*/
+nav
+{
+float:left;
+width: 185px;
+ height: 500px;
+border-bottom: 3px groove black;
+border: 3px groove white;
+display:block;
+background-image:url("Image/menu.png");
+}
+nav h1
+{
+text-align:center;
+}
+nav a
+{
+	text-align:center;
+	text-decoration: none;
+	display:block;
+}
+/*pour section*/
+
+section
+{
+background-image:url("image/sectionbg.png");
+margin-left: 220px;
+font-family:Trebuchet MS;
+padding: 30px;
+}
+/*pour header*/
+element
+{
+	top: 50px;
+	left : 220px;
+    position: absolute;
+    width: 80%;
+	height: 110px;
+	font-size: 70px;
+}
+.majus
+{
+	color: #59aabe;
+}
+
+#logo
+{
+	left:100px;
+	height: 160px;
+}
+
+
+/*pour footer*/
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+	text-align:center;
+	background-color:black;
+}
+Table
+{
+border-collapse: collapse;
+font-size:large;
+margin-left:30%;
+}
+
+/*other*/
+#brand
+{
+	vertical-align:middle;
+	width: 400px;
+}
+#screenshot
+{
+width :400px ;
+}
+figure
+{
+	width:400px;
+border: 1px solid white;
+padding:20px;
+}
